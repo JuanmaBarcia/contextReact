@@ -1,0 +1,16 @@
+.Head {
+  display: flex;
+  justify-content: center;
+  //   border-radius: 10px;
+  background: #707070;
+  box-shadow: inset 5px 5px 10px #555555, inset -5px -5px 10px #8b8b8b;
+
+  span {
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background: #707070;
+    box-shadow: 5px 5px 10px #555555, -5px -5px 10px #8b8b8b;
+  }
+}

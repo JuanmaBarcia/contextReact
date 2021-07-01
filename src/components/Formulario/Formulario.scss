@@ -1,0 +1,41 @@
+.Formulario {
+  width: 90%;
+  margin: 20px auto;
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #787878, #656565);
+    box-shadow: 5px 5px 10px #555555, -5px -5px 10px #8b8b8b;
+    text-align: center;
+  }
+  input {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background: #707070;
+    box-shadow: inset 5px 5px 10px #555555, inset -5px -5px 10px #8b8b8b;
+  }
+  button {
+    color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #787878, #656565);
+    box-shadow: 5px 5px 10px #555555, -5px -5px 10px #8b8b8b;
+    padding: 10px;
+    &:active {
+      border-radius: 10px;
+      background: #707070;
+      box-shadow: inset 5px 5px 10px #555555, inset -5px -5px 10px #8b8b8b;
+    }
+  }
+}
