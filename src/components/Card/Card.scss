@@ -1,0 +1,13 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #656565, #787878);
+  box-shadow: 5px 5px 10px #555555, -5px -5px 10px #8b8b8b;
+  img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}
